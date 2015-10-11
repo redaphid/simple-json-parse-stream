@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/redaphid/simple-json-parse-stream#readme",
   "dependencies": {
-    "coffee": "^1.2.0"
+    "coffee-script": "^1.2.0"
   }
 }
