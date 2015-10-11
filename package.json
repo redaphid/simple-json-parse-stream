@@ -1,0 +1,27 @@
+{
+  "name": "simple-json-parse-stream",
+  "version": "1.0.0",
+  "description": "A dead simple json parsing stream. Assumes each chunk is valid json",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redaphid/simple-json-parse-stream.git"
+  },
+  "keywords": [
+    "json",
+    "stream",
+    "parser"
+  ],
+  "author": "redaphid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redaphid/simple-json-parse-stream/issues"
+  },
+  "homepage": "https://github.com/redaphid/simple-json-parse-stream#readme",
+  "dependencies": {
+    "coffee": "^1.2.0",
+  }
+}
