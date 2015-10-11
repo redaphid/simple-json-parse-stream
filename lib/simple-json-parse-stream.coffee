@@ -1,10 +1,12 @@
 {Transform} = require 'stream'
 class JSONParseStream extends Transform
-  constructor: (options) ->
+  constructor: (options={}) ->
     super objectMode: true
 
   _transform:(chunk, enc, next) =>
-    @push JSON.parse(chunk.toString())
+    jsonString = chunk.toString().trim()    
     next()
+    return if jsonString == ''
+    @push JSON.parse(jsonString)
 
 module.exports = JSONParseStream
