@@ -1,6 +1,6 @@
 {
   "name": "simple-json-parse-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dead simple json parsing stream. Assumes each chunk is valid json",
   "main": "index.js",
   "scripts": {
